@@ -68,4 +68,25 @@ Elasticsearch requires Java to run. I'm going to install the latest version (Ela
    
    ![User interface](images/user_interface.png)
 
+## Add login authentication to ELK connection 
+To add a new user to ELK, after you logged-in, 
+
+1. Click on the **Management**>Dev Tools tab in the left-hand navigation menu.
+
+2. In the Dev Tools interface, use the following code snippet to create a new user named "serawork" with a password and assigned roles:
+
+```
+POST /_security/user/serawork
+{
+  "password" : "pwd09**",
+  "roles" : [ "kibana_admin", "monitor", "manage", "all" ]
+}
+```
+3. Execute the code and logout and signin with the new created user.
+
+## Integrate a sentiment classification feature
+
+
+   
+
    
