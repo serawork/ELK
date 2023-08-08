@@ -86,6 +86,21 @@ POST /_security/user/serawork
 
 ## Integrate a sentiment classification feature
 
+I used Eland to import a trained machine learning model and followed the instruction written https://www.elastic.co/guide/en/machine-learning/master/ml-nlp-import-model.html to import the trained model. 
+
+```
+eland_import_hub_model \
+--url <url> -u "serawork" -p <password> \
+--hub-model-id "distilbert-base-uncased-finetuned-sst-2-english" \
+--task-type "text_classification" \
+--start
+```
+This will download and integrate model distilbert-base-uncased-finetuned-sst-2-english from Hugging Face Model Hub.
+
+**N.B.** Go to kibana config file to get the exact url. 
+
+
+
 
    
 
