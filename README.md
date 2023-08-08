@@ -65,4 +65,7 @@ Elasticsearch requires Java to run. I'm going to install the latest version (Ela
    ./bin/kibana
    ```
    Click in the link provided (http://localhost:5601/ in my case) and login with the username (default `elastic`) and the password saved from elasticsearch.
-   ![User interface]()
+   
+   ![User interface](images/user_interface.png)
+
+   
