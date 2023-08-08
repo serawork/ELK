@@ -138,6 +138,13 @@ It seems an issue with meta as shown in threads https://communityforums.atmeta.c
 
 Because of the deadline, instead of submitting the untested scraper for facebook and instagram (fb-scraping.py), I performed the task on reddit (reddit-scrapping.py).
 
+3. Run `reddit-scrapping.py'
+   ```
+   python3 reddit-scrapping.py
+   ```
+4. Check the extracted database.
+
+   ![db](images/db.png)
 
 
 
