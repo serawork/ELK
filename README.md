@@ -120,13 +120,25 @@ POST /_ml/trained_models/distilbert-base-uncased-finetuned-sst-2-english/_infer
 ```
 ## Web scraping
 
+1. **Install Monogodb** from https://www.mongodb.com/try/download/community. Download the right file for your platform and install the .deb as:
+   ```
+   sudo dpkg -i mongodb-mongosh_1.10.3_amd64.deb
+   ```
+   Start the demon
+   ```
+   sudo systemctl start mongod
+   sudo systemctl status mongod
+   ``
+2. Get Facebook  
 I don't have meta developer account and there is a problem with the website to verify phone number and finalize registration. 
 
 ![meta](images/meta.png)
 
 It seems an issue with meta as shown in threads https://communityforums.atmeta.com/t5/Quest-Development/Can-t-verify-my-developer-account/td-p/1069304, https://communityforums.atmeta.com/t5/Quest-Development/Can-t-verify-my-developer-account/td-p/1069304. 
 
-Because of the deadline 
+Because of the deadline, instead of submitting the untested scraper for facebook and instagram (fb-scraping.py), I performed the task on reddit (reddit-scrapping.py).
+
+
 
 
 
