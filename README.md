@@ -118,6 +118,15 @@ POST /_ml/trained_models/distilbert-base-uncased-finetuned-sst-2-english/_infer
   "docs":[{"text_field": "He is singing because he can't sleep."}]
 }
 ```
+## Web scraping
+
+I don't have meta developer account and there is a problem with the website to verify phone number and finalize registration. 
+
+![meta](images/meta.png)
+
+It seems an issue with meta as shown in threads https://communityforums.atmeta.com/t5/Quest-Development/Can-t-verify-my-developer-account/td-p/1069304, https://communityforums.atmeta.com/t5/Quest-Development/Can-t-verify-my-developer-account/td-p/1069304. 
+
+Because of the deadline 
 
 
 
