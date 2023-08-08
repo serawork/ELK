@@ -105,6 +105,18 @@ You will find distilbert-base-uncased-finetuned-sst-2-english in the list of mod
 
 ![deploy](images/deploy.png)
 
+Test the model either using the user interface as 
+![test](images/test.png)
+
+or using this code in console 
+
+```
+POST /_ml/trained_models/distilbert-base-uncased-finetuned-sst-2-english/_infer
+{
+  "docs":[{"text_field": "He is singing because he can't sleep."}]
+}
+```
+
 
 
 
