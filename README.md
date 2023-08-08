@@ -99,6 +99,8 @@ This will download and integrate model distilbert-base-uncased-finetuned-sst-2-e
 
 **N.B.** Go to kibana config file to get the exact url. 
 
+## Integrate the sentiment classification service into ELK
+
 To deploy the imported model, click on "Trained Models" tab under **Machine Learning > Model Management**.
 
 You will find distilbert-base-uncased-finetuned-sst-2-english in the list of models. 
