@@ -1,4 +1,4 @@
-![image](https://github.com/serawork/ELK/assets/62110296/395b8f57-e961-43b1-a697-31abf1daf3d8)# Test technique (ELK – Scraping)
+# Test technique (ELK – Scraping)
 ## Installing Elasticsearch and kibana on ubuntu 22.04
 From the link provided, click https://www.elastic.co/fr/downloads/elasticsearch to download Elasticsearch.
 Do the same for kibana https://www.elastic.co/fr/downloads/kibana
