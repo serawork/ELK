@@ -147,7 +147,7 @@ Because of the deadline, instead of submitting the untested scraper for facebook
    ![db](images/db.png)
 
 
-   The file reddit_data.posts.csv and reddit_data.posts.json are the data exported in csv and json format respectively.
+   The file `reddit_data.posts.csv` and `reddit_data.posts.json` are the data exported in csv and json format respectively.
    
 
 
