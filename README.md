@@ -91,6 +91,9 @@ To Change the logo, click on **Stack Management > Advanced Settings** tab and go
 
 ![branding](images/branding.png)
 
+The result is shown in the figures below.
+
+![branded](images/changed_logo.png)
 
 ## Integrate a sentiment classification feature
 
