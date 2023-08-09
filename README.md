@@ -1,6 +1,9 @@
 # Test technique (ELK – Scraping)
 ## Installing Elasticsearch and kibana on ubuntu 22.04
 From the link provided, click https://www.elastic.co/fr/downloads/elasticsearch to download Elasticsearch.
+
+![installation_file](images/installation_file.png)
+
 Do the same for kibana https://www.elastic.co/fr/downloads/kibana
 
 Elasticsearch requires Java to run. I'm going to install the latest version (Elasticsearch-8.9.0) which needs java 11.
