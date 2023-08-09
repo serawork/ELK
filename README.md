@@ -95,6 +95,8 @@ The result is shown in the figures below.
 
 ![branded](images/changed_logo.png)
 
+![customized](images/brand_customized.png)
+
 ## Integrate a sentiment classification feature
 
 I used Eland to import a trained machine learning model and followed the instruction written https://www.elastic.co/guide/en/machine-learning/master/ml-nlp-import-model.html to import the trained model. 
