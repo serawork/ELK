@@ -153,7 +153,7 @@ Because of the deadline, instead of submitting the untested scraper for facebook
 
 3. Run `reddit-scrapping.py'
    ```
-   python3 reddit-scrapping.py
+   python3 reddit-scraping.py
    ```
 4. Check the extracted database.
 
