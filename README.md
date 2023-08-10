@@ -11,7 +11,7 @@ Elasticsearch requires Java to run. I'm going to install the latest version (Ela
 ### Installation Steps
 
 1. **Install Java:**
-   Open a terminal and run the following commands based on your Linux distribution:
+   Open a terminal and run the following commands:
 
    ```
    sudo apt update
