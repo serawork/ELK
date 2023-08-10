@@ -2,9 +2,9 @@ import praw
 from pymongo import MongoClient
 
 # Reddit API credentials
-CLIENT_ID = 'WGlSffuArAzdAxvn9g_zYQ'
-CLIENT_SECRET = 'c_Ad9T1ANF9OerfSpwPprdR-lBQ2RQ'
-USER_AGENT = 'Kas/1.0 by confused1290'
+CLIENT_ID = 'REDDIT_CLIENT_ID'
+CLIENT_SECRET = 'REDDIT_SECRET'
+USER_AGENT = 'APP/VERSION by REDDIT_USERNAME'
 
 # Set up the Reddit API instance
 reddit = praw.Reddit(
